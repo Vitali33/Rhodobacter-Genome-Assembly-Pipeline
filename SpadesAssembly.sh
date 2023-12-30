@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # SpadesAssembly.sh
 
+mkdir -p ~/WorkingDirectory/NGS/data/results
+
 function Spades {
     spades.py \
     -1 ~/WorkingDirectory/NGS/data/trimmed/paired/Rhodobacter.R1.paired.fastq \
