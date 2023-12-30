@@ -3,9 +3,9 @@
 
 function Spades {
     spades.py \
-    -1 ~/BINF6308/module-06-Vitali33/data/SRR522244_1.fastq \
-    -2 ~/BINF6308/module-06-Vitali33/data/SRR522244_2.fastq \
-    -o ~/BINF6308/module-06-Vitali33/results/rhodo
+    -1 ~/WorkingDirectory/NGS/data/trimmed/paired/Rhodobacter.R1.paired.fastq \
+    -2 ~/WorkingDirectory/NGS/data/trimmed/paired/Rhodobacter.R2.paired.fastq \
+    -o ~/WorkingDirectory/NGS/data/results/Rhodobacter
 }
 
 Spades # runs the function Spades
