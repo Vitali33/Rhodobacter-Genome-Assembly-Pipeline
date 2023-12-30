@@ -1,4 +1,6 @@
 #!/bin/bash
+#sbatch_GenomeAssembly.sh
+
 #SBATCH --partition=short               # choose from debug, express, or short
 #SBATCH --job-name=GenomeAssembly
 #SBATCH --time=04:00:00                 # the code pieces should run in far less than 4 hours
